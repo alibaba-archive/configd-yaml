@@ -1,0 +1,11 @@
+# This file is written in JSON5 syntax, naturally, but npm needs a regular
+# JSON file, so compile via `npm run build`. Be sure to keep both in sync!
+name: json5
+version: 0.5.0
+contributors: 
+# TODO: Should we remove this section in favor of GitHub's list?
+#  https://github.com/aseemk/json5/contributors
+- Max Nanasy <max.nanasy@gmail.com>
+- Andrew Eisenberg <andrew@eisenberg.as>
+- Jordan Tucker <jordanbtucker@gmail.com>
+

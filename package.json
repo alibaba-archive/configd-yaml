@@ -1,0 +1,33 @@
+{
+  "name": "configd-yaml",
+  "version": "0.1.0",
+  "description": "Configd yaml plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -r should -R spec test/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teambition/configd-yaml.git"
+  },
+  "keywords": [
+    "configd",
+    "yaml",
+    "yml"
+  ],
+  "author": "Orange Mi <orangemiwj@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teambition/configd-yaml/issues"
+  },
+  "homepage": "https://github.com/teambition/configd-yaml#readme",
+  "devDependencies": {
+    "configd": "^0.1.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "should": "^9.0.2"
+  },
+  "dependencies": {
+    "js-yaml": "^3.9.1"
+  }
+}
